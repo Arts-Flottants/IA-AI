@@ -1,2 +1,2 @@
 # IA-AI
-The artist questions Artificiel Intelligence "ChatGPT"
+The artist (IA) questions Artificial Intelligence (AI)
