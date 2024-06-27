@@ -60,14 +60,12 @@
         /* Images flottantes à gauche */
        .image-left {
         float: left;
-        margin: 0 15px 15px 0;
+        margin-bottom: 30 px; 
         max-width: 50%;
         }
-        /* Images flottantes à droite */
-        .image-right {
-        float: right;
-        margin: 0 0 15px 15px;
-        max-width: 50%;
+        .image-container img {
+        display: block;
+        width: 100%;
         }
         img {
             max-width: 100%;
@@ -353,16 +351,22 @@
         <p> *Oxford Academic is Oxford University Press's academic research platform, providing access to over 50,000 books and 500 journals.</p>
         <p> *SpringerLink is the reading platform of choice for hundreds of thousands of researchers worldwide.</p>
         <p>
-            <img src="Images/Pupitre&Plume_SD.jpg" alt="Détail de l'installation 'SD', Le pupitre et la plume, 2024." class="image-left">
-            <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre et la plume, 2024.</figcaption>
+            <figure class="image-container">
+                <img src="Images/Pupitre&Plume_SD.jpg" alt="Détail de l'installation 'SD', Le pupitre et la plume, 2024.">
+                <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre et la plume, 2024.</figcaption>
+            </figure>
+        
             
-            <img src="Images/Pup.jpg" alt="Détail de l'installation 'SD', Le pupitre, 2024." class="image-left">
-            <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre, 2024.</figcaption>
+            <figure class="image-container">
+                <img src="Images/Pup.jpg" alt="Détail de l'installation 'SD', Le pupitre, 2024.">
+                <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre, 2024.</figcaption>
+            </figure>
             
-            <img src="Images/Installation_SD.jpg" alt="Installation 'SD', 2024." class="image-left">
-            <figcaption>©IA&l'IA. Installation 'SD', 2024.</figcaption>
-        </figure> 
-    </p>
+            <figure class="image-container">
+                <img src="Images/Installation_SD.jpg" alt="Installation 'SD', 2024.">
+                <figcaption>©IA&l'IA. Installation 'SD', 2024.</figcaption>
+            </figure>
+        </p>
     
     </div> 
 </div>
