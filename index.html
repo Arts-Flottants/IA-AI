@@ -60,7 +60,15 @@
         /* Images flottantes à gauche */
        .image-left {
         float: left;
-        margin-bottom: 30 px; 
+        margin: 0 15px 15px 0;
+        max-width: 50%;
+
+        }
+
+        /* Images flottantes à droite */
+        .image-right {
+        float: right;
+        margin: 0 0 15px 15px;
         max-width: 50%;
         }
         .image-container img {
@@ -74,11 +82,14 @@
             margin-top: 10px;
         }
         figure {
+            display: inline-block;
             margin: 0;
             padding: 0;
+            width: auto;
             text-align: center;
         }
         figcaption {
+            text-align: center;
             font-size: 0.9em;
             color: #ccc;
             margin-top: 5px;
@@ -351,18 +362,18 @@
         <p> *Oxford Academic is Oxford University Press's academic research platform, providing access to over 50,000 books and 500 journals.</p>
         <p> *SpringerLink is the reading platform of choice for hundreds of thousands of researchers worldwide.</p>
         <p>
-            <figure class="image-container">
+            <figure class="image-left">
                 <img src="Images/Pupitre&Plume_SD.jpg" alt="Détail de l'installation 'SD', Le pupitre et la plume, 2024.">
                 <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre et la plume, 2024.</figcaption>
             </figure>
         
             
-            <figure class="image-container">
+            <figure class="image-right">
                 <img src="Images/Pup.jpg" alt="Détail de l'installation 'SD', Le pupitre, 2024.">
                 <figcaption>©IA&l'IA. Détail de l'installation 'SD', Le pupitre, 2024.</figcaption>
             </figure>
             
-            <figure class="image-container">
+            <figure class="image-left">
                 <img src="Images/Installation_SD.jpg" alt="Installation 'SD', 2024.">
                 <figcaption>©IA&l'IA. Installation 'SD', 2024.</figcaption>
             </figure>
