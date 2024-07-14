@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://arts-flottants.github.io/IA-AI/sitemap.xml
